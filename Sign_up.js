@@ -9,8 +9,6 @@ const Sign_up = () => {
     const [contact, setContact] = useState('');
     const [psd, setPsd] = useState('');
     const [isloading, setisLoading] = useState(false);
-    const [users, setUsers] = useState();
-
 
     const create_account = async () => {
         setisLoading(true);
